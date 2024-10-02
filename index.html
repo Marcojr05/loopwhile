@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/script.js" defer></script>
+    <title>Exercícios</title>
+</head>
+<body>
+    <h1>Loop While</h1>
+
+    
+    <h2>1)- Capacidade Restaurante</h2>
+    
+    <p>Capacidade máxima: <span id="maximaCapaci">50</span></p>
+    <p>Vagas disponíveis: <span id="VagaDispon">50</span></p>
+    
+    <input type="number" id="nembClients" placeholder="Digite a quantidade de clientes" />
+    <button id="adicionarClie" onclick="adicionarClien()">Adicionar</button>
+    
+    <p id="avisoMessage"></p>
+
+    <hr>
+
+    <h2>2)- Valores de produtos</h2>
+
+    <label for="valor">Digite os valores: </label><br>
+    <input type="text" id="valor" required>
+    <br><br>
+    
+    <button id="inserirButton" onclick="calcularSoma()">Inserir</button>
+    <button onclick="finali()">Finalizar</button>
+
+    <div id="soma">Soma atual: 0</div>
+
+    <hr>
+
+    <h2>3)- Progressão aritmética e progressão geométrica utilizando loop While</h2>
+
+
+
+    <h3>Progressão Geométrica</h3>
+    <label for="inicio">Valor inicial</label>
+    <input type="number" name="inicio" id="inicio">
+    <label for="passo">Passo</label>
+    <input type="number" name="passo" id="passo">
+    <label for="repeticoes">Repetições</label>
+    <input type="number" name="repeticoes" id="repeticoes">
+    <br>
+    
+    <button type="submit" onclick="calcProgGeom()">Calcular</button>
+
+</body>
+</html>
