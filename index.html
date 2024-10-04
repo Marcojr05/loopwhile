@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="js/script.js" defer></script>
     <title>Exercícios</title>
 </head>
+
 <body>
     <h1>Loop While</h1>
 
-    
     <h2>1)- Capacidade Restaurante</h2>
-    
+
     <p>Capacidade máxima: <span id="maximaCapaci">50</span></p>
     <p>Vagas disponíveis: <span id="VagaDispon">50</span></p>
-    
+
     <input type="number" id="nembClients" placeholder="Digite a quantidade de clientes" />
     <button id="adicionarClie" onclick="adicionarClien()">Adicionar</button>
-    
+
     <p id="avisoMessage"></p>
 
     <hr>
@@ -27,7 +28,7 @@
     <label for="valor">Digite os valores: </label><br>
     <input type="text" id="valor" required>
     <br><br>
-    
+
     <button id="inserirButton" onclick="calcularSoma()">Inserir</button>
     <button onclick="finali()">Finalizar</button>
 
@@ -35,20 +36,96 @@
 
     <hr>
 
-    <h2>3)- Progressão aritmética e progressão geométrica utilizando loop While</h2>
+    <h2>3)- Progressão Geométrica</h2>
+
+    <label for="inicio">Início:</label>
+    <input type="text" id="inicio">
+
+    <label for="passo">Razão:</label>
+    <input type="text" id="passo">
+
+    <label for="repeticoes">Repetições:</label>
+    <input type="text" id="repeticoes">
+
+    <button type="button" onclick="progGeo()">Executar</button>
+    <p id="resposta5"></p>
 
 
+    <h2>Progressão Geométrica - loop while</h2>
 
-    <h3>Progressão Geométrica</h3>
-    <label for="inicio">Valor inicial</label>
-    <input type="number" name="inicio" id="inicio">
-    <label for="passo">Passo</label>
-    <input type="number" name="passo" id="passo">
-    <label for="repeticoes">Repetições</label>
-    <input type="number" name="repeticoes" id="repeticoes">
-    <br>
-    
-    <button type="submit" onclick="calcProgGeom()">Calcular</button>
+    <label for="inicio">Início:</label>
+    <input type="text" id="inicio1">
+
+    <label for="passo">Razão:</label>
+    <input type="text" id="passo1">
+
+    <label for="repeticoes">Repetições:</label>
+    <input type="text" id="repeticoes1">
+
+    <button type="button" onclick="progGeo1()">Executar</button>
+    <p id="resposta6"></p>
+
+
+    <h2>Progressão Geométrica - loop do while</h2>
+
+    <label for="inicio">Início:</label>
+    <input type="text" id="inicio2">
+
+    <label for="passo">Razão:</label>
+    <input type="text" id="passo2">
+
+    <label for="repeticoes">Repetições:</label>
+    <input type="text" id="repeticoes2">
+
+    <button type="button" onclick="progGeo2()">Executar</button>
+    <p id="resposta7"></p>
+
+    <hr>
+
+    <h2>4)- Progressão Aritmética</h2>
+
+    <label for="inicioFor">Início:</label>
+    <input type="text" id="inicioFor">
+
+    <label for="passoFor">Razão:</label>
+    <input type="text" id="passoFor">
+
+    <label for="repeticoesFor">Repetições:</label>
+    <input type="text" id="repeticoesFor">
+
+    <button type="button" onclick="progAritFor()">Executar</button>
+    <p id="respostaFor"></p>
+
+
+    <h2>Progressão Aritmética - loop while</h2>
+
+    <label for="inicioWhile">Início:</label>
+    <input type="text" id="inicioWhile">
+
+    <label for="passoWhile">Razão:</label>
+    <input type="text" id="passoWhile">
+
+    <label for="repeticoesWhile">Repetições:</label>
+    <input type="text" id="repeticoesWhile">
+
+    <button type="button" onclick="progAritWhile()">Executar</button>
+    <p id="respostaWhile"></p>
+
+
+    <h2>Progressão Aritmética - loop do while</h2>
+
+    <label for="inicioDoWhile">Início:</label>
+    <input type="text" id="inicioDoWhile">
+
+    <label for="passoDoWhile">Razão:</label>
+    <input type="text" id="passoDoWhile">
+
+    <label for="repeticoesDoWhile">Repetições:</label>
+    <input type="text" id="repeticoesDoWhile">
+
+    <button type="button" onclick="progAritDoWhile()">Executar</button>
+    <p id="respostaDoWhile"></p>
 
 </body>
+
 </html>
